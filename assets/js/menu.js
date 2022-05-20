@@ -1,4 +1,4 @@
-fetch('../../menu.json')
+fetch('menu.json')
 .then((resp) => resp.json())
 .then((data) => {
     const menu = [...data];
